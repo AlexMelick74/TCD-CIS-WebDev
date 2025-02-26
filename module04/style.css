@@ -33,7 +33,32 @@ selector {
 # General Elements
 # Modal Navigation
 # Navigation
+nav ul {
+    list-style-type: square;
+}
+nav ul li::marker {
+    color: red;
+}
+
+nav a:link {
+    color: blue;
+}
+nav a:visited {
+    color: purple;
+}
+nav a:hover {
+    color: green;
+}
+nav a:active {
+    color: orange;
+}
 # Header Area
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 # Content Area
 # Footer Area
 # Reusable Classes
