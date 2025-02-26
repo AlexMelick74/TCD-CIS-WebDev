@@ -33,32 +33,7 @@ selector {
 # General Elements
 # Modal Navigation
 # Navigation
-nav ul {
-    list-style-type: square;
-}
-nav ul li::marker {
-    color: red;
-}
-
-nav a:link {
-    color: blue;
-}
-nav a:visited {
-    color: purple;
-}
-nav a:hover {
-    color: green;
-}
-nav a:active {
-    color: orange;
-}
 # Header Area
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
 # Content Area
 # Footer Area
 # Reusable Classes
@@ -78,26 +53,79 @@ html * {
 }
 /*--------------------------------------------------------------
 # General Elements
+
+body {
+	font-family: Arial, sans-serif
+	margin: 0;
+}
 --------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
 # Navigation
+
+nav ul {
+	list-style-type: star;
+}
+
+nav a:visited {
+	color: purple;
+}
+
+nav a:link {
+	color: blue;
+}
+
+nav a:active {
+	color: brown;
+}
+
+nav a:hover {
+	color: red;
+}
+
+nav ul li::marker {
+	color: pink;
+}
 --------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
 # Header Area
+
+header {
+	background-color: black;
+	color: black;
+	padding: 20px;
+	text-align: center;
+}
 --------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
 # Content Area
+
+main {
+	float: left;
+	width: clac(70%-1px);
+	padding: 1rem;
+	border-right: 1px grey;
+}
+aside {
+	width: 30%
+	float: right;
 --------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
 # Footer Area
+
+footer {
+	text-align: center;
+	padding: 10px
+	color: grey;
+	background-color: black;
+}
 --------------------------------------------------------------*/
 
 
