@@ -106,7 +106,7 @@ header {
 
 main {
 	float: left;
-	width: clac(70%-1px);
+	width: calc(70%-1px);
 	padding: 1rem;
 	border-right: 1px grey;
 }
