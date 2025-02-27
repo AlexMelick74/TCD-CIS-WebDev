@@ -106,12 +106,12 @@ header {
 
 main {
 	float: left;
-	width: calc(70%-1px);
+	width: calc(70% - 1px);
 	padding: 1rem;
 	border-right: 1px grey;
 }
 aside {
-	width: 30%
+	width: 30%;
 	float: right;
 }
 
@@ -121,7 +121,7 @@ aside {
 
 footer {
 	text-align: center;
-	padding: 10px
+	padding: 10px;
 	color: grey;
 	background-color: black;
 }
