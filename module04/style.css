@@ -73,7 +73,7 @@ nav a:visited {
 }
 
 nav a:link {
-	color: blue;
+	color: black;
 }
 
 nav a:active {
@@ -94,7 +94,7 @@ nav ul li::marker {
 
 
 header {
-	background-color: black;
+	background-color: grey;
 	color: black;
 	padding: 20px;
 	text-align: center;
