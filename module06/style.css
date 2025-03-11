@@ -1,6 +1,6 @@
 font {
   font-family:sans-serif;
-  text-color: light blue;
+  text-color: brown;
   font-size: 50px;
 }
 
@@ -8,4 +8,5 @@ body {
   justify-content:center;
   content-align:center;
   text-align: center;
+  align-items: center;
 }
