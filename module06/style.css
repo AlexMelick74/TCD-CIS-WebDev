@@ -1,3 +1,8 @@
+font {
+  font-family:sans-serif;
+  text-color: blue;
+  font-size: 20px;
+}
 
 body {
   justify-content:center;
