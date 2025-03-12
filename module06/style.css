@@ -1,6 +1,5 @@
 font {
   font-family:sans-serif;
-  text-color: brown;
   font-size: 50px;
 }
 
@@ -12,6 +11,7 @@ body {
 }
 figure-figcaption {
 text-align: center;
+text-color: Blue;
 }
 
 figure-img {
