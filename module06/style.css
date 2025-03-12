@@ -10,6 +10,10 @@ body {
   text-align: center;
   align-items: center;
 }
-figure-caption {
+figure-figcaption {
 text-align: center;
+}
+
+figure-img {
+vertical-align: top;
 }
